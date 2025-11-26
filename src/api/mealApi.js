@@ -1,4 +1,4 @@
-
+//const API_BASE_URL ='const API_BASE_URL = "http://localhost:8080/api';
 const API_BASE_URL = 'https://mealdb-explorer-backend.onrender.com/api';
 
 
@@ -93,4 +93,5 @@ export const getAreas = async () => {
         strArea: item.name
     }));
 };
+
 
